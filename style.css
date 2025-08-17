@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url('fonts/SFProDisplay-Regular.woff2') format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 8%, 95%);
+}
+.facebook-logo{
+    position: relative;
+    left: 3.9rem;
+    top: -5px;
+}
+.facebook-logo img{
+    height: 106px;
+    margin: -28px;
+}
+.facebook-logo h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 500px;
+    padding-top: 18px;
+    
+
+    
+}
+
+.container{
+    display: flex;
+    padding: 13rem;
+    height: 100vh;
+    
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 360px;
+    align-items: center;
+    position: absolute;
+    padding-bottom: 1rem ;
+    padding-top: 1rem;
+    border-radius: 10px;
+    gap: 15px;
+
+    position: absolute;
+    top: -75px;
+    left: 140px;
+
+}
+
+input{
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px gray;
+}
+
+#log-user{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+}
+
+.login a{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.divider{
+    width: 332px;
+    height: 1   px;
+    color: #DADDE1;
+}
+
+#new-acc{
+    background-color: #42b72a;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #42b72a;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+#new-acc:hover{
+    background-color: #34a31e;
+}
